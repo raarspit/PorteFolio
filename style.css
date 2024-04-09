@@ -1,0 +1,15 @@
+.nathan{
+    margin-left: 25px ;
+    color: rgba(0, 0, 0, 0.817);
+}
+.suite {
+    margin-right: 25px;
+}
+.nav{
+    background-color: rgb(189, 60, 19);
+}
+.pres {
+    color: rgba(0, 0, 0, 0.817);
+    font-weight: bold;
+    text-decoration: underline black;
+}
