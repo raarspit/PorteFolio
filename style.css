@@ -56,3 +56,33 @@ header{
     border-radius: 15px;
     display: flex;
 }
+#p2 {
+    margin: 20px 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    color: white;
+}
+#section3 {
+    background-color: rgb(48, 48, 48);
+    margin: 25px 40px;
+    border-radius: 15px;
+    padding: 40px 40px;
+}
+.h2 {
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    color: white;
+}
+.p {
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#section4 {
+    background-color: rgb(48, 48, 48);
+    margin: 25px 40px;
+    border-radius: 15px;
+    padding: 40px 40px;
+}
