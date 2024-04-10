@@ -1,3 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    --pico-block-spacing-vertical:0;
+}
 .nathan{
     margin-left: 25px ;
     color: rgba(0, 0, 0, 0.817);
@@ -12,4 +20,39 @@
     color: rgba(0, 0, 0, 0.817);
     font-weight: bold;
     text-decoration: underline black;
+}
+.section1 {
+    display: flex;
+    background-color: rgb(48, 48, 48);
+    margin: 25px 40px;
+    padding: 40px 40px;
+    border-radius: 15px;
+}
+#img1 {
+    width: 12%;
+    height: 12%;
+}
+#h1 {
+    font-family: "Libre Baskerville", serif;
+    padding-bottom: 25px;
+    word-spacing: 30px;
+}
+#div1 {
+    padding-left: 33%;
+    text-align: center;
+}
+#p1 {
+    font-size: 30px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+}
+#img2 {
+    width: 50%;
+    height: 100%;
+}
+#section2 {
+    background-color: rgb(48, 48, 48);
+    margin: 25px 40px;
+    border-radius: 15px;
+    display: flex;
 }
