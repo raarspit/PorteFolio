@@ -17,24 +17,24 @@
 
 <body>
   <header>
+    <script src="https://kit.fontawesome.com/541865e8ec.js" crossorigin="anonymous"></script>
     <nav class="nav">
       <ul>
         <li class="nathan"><strong>PorteFolio</strong></li>
       </ul>
       <ul>
-        <li><a href="#" class="secondary pres">Présentation</a></li>
+        <li><a href="#présentation" class="secondary pres">Présentation</a></li>
         <li>
           <details class="dropdown">
             <summary class="suite">
               Suite
             </summary>
             <ul dir="rtl">
-              <li><a href="#">Parcours</a></li>
-              <li><a href="#">Compétences</a></li>
-              <li><a href="#">Projets</a></li>
-              <li><a href="#">Formulaire</a></li>
-              <li><a href="#">Contacts</a></li>
-              <li><a href="#">Credits</a></li>
+              <li><a href="#section2">Parcours</a></li>
+              <li><a href="#section3">Compétences</a></li>
+              <li><a href="#section4">Projets</a></li>
+              <li><a href="#section5">Formulaire</a></li>
+              <li><a href="#section6">Contacts</a></li>
             </ul>
           </details>
         </li>
@@ -42,7 +42,7 @@
     </nav>
   </header>
   <main>
-    <section class="section1">
+    <section class="section1" id="présentation">
       <img id="img1" src="téléchargement.jpg" />
       <div id="div1">
         <h1 id="h1">Piot Nathan</h1>
@@ -51,11 +51,14 @@
     </section>
     <section id="section2">
       <img id="img2" src="Formation-parcours-videolearning.jpg" />
-      <p id="p2">Tout d'abord j'ai commencé par une seconde générale option science de l'ingénieure puis par la suite je me suis
-        orienté vers une première science et technologie de l'industrie et du développement durable qui ne m'a pas plus.<br>
+      <p id="p2">Tout d'abord j'ai commencé par une seconde générale option science de l'ingénieure puis par la suite je
+        me suis
+        orienté vers une première science et technologie de l'industrie et du développement durable qui ne m'a pas
+        plus.<br>
         Après j'ai decouvert la menuiserie j'ai donc effectuer un CAP menuisier agenceur en deux ans que j'ai obtenue
         mention très bien, malgré ce très beau métier j'avais encie de concrétiser mon projet de l'informatique alors je
-        me suis inscrit a la formation La Toile a l'EM Lyon qui est une formation préquilafiante en de devellopement web.
+        me suis inscrit a la formation La Toile a l'EM Lyon qui est une formation préquilafiante en de devellopement
+        web.
       </p>
     </section>
     <section id="section3">
@@ -75,7 +78,56 @@
     </section>
     <section id="section4">
       <h2 class="h2">Projets</h2>
-      <p class="p">Projets CAP 2022/2023:</p>
+      <p class="p">Projets CAP 2022/2023 :</p>
+      <p class="p3">Cap blanc :</p>
+      <div class="flex divcap">
+        <img class="img3" src="Petite table.jpg" />
+        <p id="pcapb">Ceci est mon épreuve du CAP blanc qui c'est dérouler en mars 2023 et que j'ai réussie avec de très
+          bons
+          résultats. C'est une petite table composer d'un tiroir en médium et en bois massif.</p>
+      </div>
+      <p class="p3">Épreuve CAP :</p>
+      <img class="img3" src="Table de chevet.jpg" />
+      <img class="img3" src="Table de chevet 2.jpg" />
+      <p id="pcapb">Ceci est mon épreuve du CAP qui c'est dérouler en juin 2023 pendant trois jours j'ai construit cette
+        table de
+        chevet fixable a un mur en bois massif et médium avec une tablette stratifiée et un tiroir dans le compartiment
+        du bas le tout est bien sûr laqué.</p>
+      <p class="p">Premier projets Html Css a la formation la toile :</p>
+      <p>Premier projet html et css sur le site d'un restaurant avec barre de navigation, tableau, formulaire, etc</p>
+      <a href="https://raarspit.github.io/Rendu-Html-Css/"><img src="Plat.jpg" /></a>
+    </section>
+    <section id="section5">
+      <form>
+        <fieldset>
+          <label>
+            Nom
+            <input name="Surname" placeholder="Nom" autocomplete="given-name" />
+          </label>
+          <label>
+            Prénom
+            <input name="first_name" placeholder="Prénom" autocomplete="given-name" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Email" autoComplete="email" aria-label="Email"
+              aria-describedby="email-helper" />
+          </label>
+          <textarea name="Message" placeholder="Message ..." aria-label="Message">
+</textarea>
+        </fieldset>
+        <input type="submit" value="Envoyer" />
+      </form>
+    </section>
+    <section id="section6">
+      <div class="flex" id="contact1">
+      <i class="fa-solid fa-phone"></i>
+      <p class="contacttxt">06-95-24-57-24</p>
+    </div>
+    <div class="flex" id="contact2">
+      <i class="fa-solid fa-envelope"></i>
+      <p class="contacttxt">nath69.piot@gmail.com</p>
+    </div>
     </section>
   </main>
 </body>

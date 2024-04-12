@@ -86,3 +86,43 @@ header{
     border-radius: 15px;
     padding: 40px 40px;
 }
+.p3 {
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+}
+.img3 {
+    width: 45%;
+}
+.flex {
+    display: flex;
+}
+#pcapb {
+    margin: 25px 25px;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+}
+.divcap {
+    margin: 25px 25px;
+}
+#section5 {
+    background-color: rgb(48, 48, 48);
+    margin: 25px 40px;
+    border-radius: 15px;
+    padding: 100px 100px;
+}
+#section6 {
+    background-color: rgb(48, 48, 48);
+    margin: 25px 40px;
+    border-radius: 15px;
+    padding: 40px 40px;
+    display: flex;
+}
+.contacttxt {
+    margin: 0px 20px;
+}
+#contact1 {
+    margin-right:630px ;
+}
+
